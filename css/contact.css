@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Neka Laurent";
+  src: url("fonts/neka-laurent.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Louis Gourge";
+  src: url("fonts/louis-gourge.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white; /* warna gelap untuk background header */
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 70px;
+  background-color: #222;
+}
+
+.logo {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li a {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: white;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  height: 502px;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.container h2 {
+  font-family: "Neka Laurent", sans-serif;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.container h3 {
+  font-family: "Louis Gourge", serif;
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+.container p {
+  font-family: "Louis Gourge", serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #222;
+  color: #ccc; /* warna font abu-abu terang */
+  text-align: center;
+  padding: 30px;
+  font-size: 16px;
+  user-select: none;
+}
